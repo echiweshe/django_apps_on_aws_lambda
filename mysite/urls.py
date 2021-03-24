@@ -21,7 +21,7 @@ from django.urls import include, path
 urlpatterns = [
     # To point the root URLconf at the stats.urls module . etc. 
     # In mysite/urls.py, add an import for django.urls.
-    path('', include('stats.urls')),    # path('stats/', include('stats.urls')),
+    path('stats', include('stats.urls')),    # path('stats/', include('stats.urls')),
     
     # OG
     path('admin/', admin.site.urls),
