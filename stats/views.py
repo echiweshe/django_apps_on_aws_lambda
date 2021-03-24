@@ -6,4 +6,4 @@ from django.http import HttpResponse
 
 # This is the simplest view possible in Django
 def index(request):
-    return HttpResponse("Hello ASHLYNE CHIWESHE. \n You're at the your father's statistics calculator page.")
+    return HttpResponse("Hello ASHLYNE CHIWESHE. \n You're at the your father's statistics calculator page. This is added")
